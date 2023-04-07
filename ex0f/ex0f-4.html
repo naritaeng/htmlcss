@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>예제</title>
+    <style>
+        div{
+            width:150px;
+            height:150px;
+            background-color: black;
+            border-radius: 75px;
+            margin: 0 300px;
+            animation: mymove 1s alternate infinite ease-in;
+        }
+        @keyframes mymove{
+            0% {
+                transform: translateY(1px);
+            }
+            96% {
+                transform: translateY(698px);
+            }
+            100% {
+                transform: translateY(700px) scale(1.2,0.8);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>위치지정 조부모,부모,자식관계(p184)</title>
+    <style>
+        .grandparent {
+            background-color: aqua;
+            width: 200px;
+            height: 200px;
+        }
+        .parent {
+            background-color: blueviolet;
+            width: 150px;
+            height: 150px;
+            position: relative;
+            top: -20px;
+            opacity: 0.5;
+        }
+        .child {
+            background-color: chartreuse;
+            width: 50px;
+            height: 50px;
+            position: relative;
+            top: -20px;
+            opacity: 0.5;
+        }
+        .test {
+            background-color: chartreuse;
+            width: 50px;
+            height: 50px;
+            position: relative;
+            left: 50px;
+            top: -240px;
+            opacity: 0.25;
+        }
+    </style>
+</head>
+<body>
+    <h3>조부모, 부모, 자식 관계일 때</h3>
+    <div class="grandparent">
+        <div class="parent">
+            <div class="child"></div>
+        </div>
+    </div>
+    <div class="test"></div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>grid예제</title>
+    <style>
+        :root {
+            --purple: #8310ee;
+            --beige: #dfc9b8;
+            --brown: #dab08f;
+            --white: #fcfcfc;
+            --pink: #ec9cd6;
+            --blueberry: #d3aee9;
+        }
+        body {
+            margin: 0px;
+        }
+        wrap {
+            display: grid;
+            grid-template-columns: 1fr 4fr 1fr;
+            grid-template-rows: 50px 50px 800px 50px;
+        }
+        .grid1 {
+            background-color: var(--purple);
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .grid2 {
+            background-color: var(--beige);
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .grid3 {
+            background-color: var(--brown);
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        .grid4 {
+            background-color: var(--white);
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+        .grid5 {
+            background-color: var(--pink);
+            grid-column-start: 3;
+            grid-column-end: 4;
+        }
+        .grid6 {
+            background-color: var(--blueberry);
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+    </style>
+</head>
+<body>
+    <wrap>
+        <div class="grid1">GRID1</div>
+        <div class="grid2">GRID2</div>
+        <div class="grid3">GRID3</div>
+        <div class="grid4">GRID4</div>
+        <div class="grid5">GRID5</div>
+        <div class="grid6">GRID6</div>
+    </wrap>
+</body>
+</html>

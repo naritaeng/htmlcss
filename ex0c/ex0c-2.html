@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>정규식</title>
+</head>
+<body>
+    <form action="myform.html" name="ok1">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" pattern="[a-z]{2,5}@(gmail.com)"><br>
+<!--        [0-9]숫자범위 [0-35-9] 4를 제외한 숫자범위 ^ 맨 앞의 글자 $ 맨 뒤의 글자-->
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname">
+        <button type="submit">제출</button>
+        <button type="reset">리셋</button>
+    </form>
+</body>
+</html>

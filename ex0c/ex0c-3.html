@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>예제</title>
+</head>
+<body>
+    <form action="#">
+    <label for="hp">전화번호 : </label>
+    <input type="text" id="hp" pattern="01[06-9]\d{3,4}\d{4}" required placeholder="-를 제외한 숫자만 입력"><br>  
+    <label for="name">이름 : </label>
+    <input type="text" id="name" pattern="[가-힣]{2,4}" required placeholder="한글만"><br>
+    <label for="qu">질문 : </label>
+    <input type="text" id="qu" pattern="[가-힣\s]*까$"><br>
+    <label for="class">반 : </label>
+    <input type="text" id="calss" pattern="[1-5]" required><br>
+    <label for="age">나이 : </label>
+    <input type="text" id="age" pattern="\d{2}" required><br>
+    <label for="num">사건번호 : </label>
+    <input type="text" id="num" pattern="^(제)[0-9]{0,4}" required placeholder="제OOOO"><br>
+    <button type="submit">제출</button>
+    <button type="reset">초기화</button>
+    </form>
+</body>
+</html>

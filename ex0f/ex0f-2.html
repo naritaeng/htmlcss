@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        li:hover {
+            color:#d59494;
+            background-color:#e9ddd2;
+        }
+        li{
+            font-weight: bold;
+            list-style:none;
+            float:left;
+            padding:0 15px;
+            box-shadow: 0 2px lightgray;
+            margin: 0 10px;
+        }
+        li:after{
+            content:"|";
+            float:right;
+            color: #ccc;
+            margin-right: -17px;
+        }
+        li:nth-last-of-type(1):after{
+            content:"";
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>로그인</li>
+        <li>회원가입</li>
+        <li>마이페이지</li>
+        <li>사이트맵</li>
+        <li>고객센터</li>
+    </ul>
+</body>
+</html>

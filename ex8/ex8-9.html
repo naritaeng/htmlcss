@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>only-of-type(p203)</title>
+    <style>
+        span :only-of-type{
+/*        띄어쓰기 주의*/
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <span>
+        <div>난div태그의 첫 번째야</div>
+        <p>난 유일한 p태그야</p>
+        <div>난 div태그의 두 번째야</div>
+        <div>난 div태그의 세 번째야
+            <i>난 유일한i태그야</i>
+            <em>난 em태그의 첫 번째야</em>
+            <em>난 em태그의 두 번째야</em>
+        </div>
+    </span>
+</body>
+</html>

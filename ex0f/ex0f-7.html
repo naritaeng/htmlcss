@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid</title>
+    <style>
+        :root {
+/*            --는 필수*/
+            --myblue1: #146398;
+            --myblue2: #2e98df;
+            --myblue3: #84c1eb;
+            --mygreen1: #3fb115;
+            --mygreen2: #67e439;
+            --mygreen3: #a4ef89;
+            --myred1: #a31414;
+            --myred2: #e23030;
+            --myred3: #ef9393;
+        }
+        div {
+            margin: 3px;
+            border: 2px solid #ccc;
+            box-shadow: 2px 2px;
+        }
+        .wrap {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 100px 200px 100px;
+        }
+        .grid1 {
+            background-color: var(--myblue2);
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .grid2 {
+            background-color: var(--myblue3);
+            grid-column-start: 3;
+            grid-column-end: 4;
+        }
+        .grid3 {
+            background-color: var(--mygreen1);
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        .grid4 {
+            background-color: var(--mygreen2);
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        .grid5 {
+            background-color: var(--myred2);
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+        .grid6 {
+            background-color: var(--myred3);
+            grid-column-start: 3;
+            grid-column-end: 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="grid1">GRID1</div>
+        <div class="grid2">GRID2</div>
+        <div class="grid3">GRID3</div>
+        <div class="grid4">GRID4</div>
+        <div class="grid5">GRID5</div>
+        <div class="grid6">GRID6</div>
+    </div>
+</body>
+</html>

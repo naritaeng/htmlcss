@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>키프레임1(p227)</title>
+    <style>
+        div {
+            background-color: #ccc;
+            height: 200px;
+            width: 200px;
+            margin: 50px;
+            animation: mymove 4s alternate infinite;
+        }
+        @keyframes mymove {
+            0% {
+                transform: rotate(90deg);
+            }
+/*
+            25% {
+                transform: translateY(50px);
+            }
+            75% {
+                transform: translate(-50px);
+            }
+*/
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

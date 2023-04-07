@@ -1,0 +1,23 @@
+
+@media(max-width:2000px){
+body {
+  color:yellow;
+  border-bottom: 1px solid yellow;
+  background: url(https://www.visitbusan.net/uploadImgs/files/cntnts/20200703155006481_oen) no-repeat;
+}}
+
+@media(max-width:1000px){
+body {
+  color:white;
+  border-bottom: 1px solid white;
+  background: url(https://post-phinf.pstatic.net/MjAxOTA2MDNfMTQ3/MDAxNTU5NTI5MTkxNTI1.rxCH-JM27rrnvatW0sGIC9GnEArQzCIDXBA9QGyTSNYg.oGXpWK7prD3Jq9VyI1Ta9h7wZ2fUGIvMx8hC5q2_oZ8g.JPEG/Summer_beach.jpg?type=w1200) no-repeat;
+}}
+
+
+h1{
+  border-bottom: 1px solid white;
+  padding: 10px;
+}
+span {
+  padding: 5px;
+}
