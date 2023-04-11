@@ -1,0 +1,52 @@
+html,body {
+            margin: 0px;
+            height: 100%;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .header {
+            width: auto;
+            height: 50px;
+            background-color: beige;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        .main {
+            display: flex;
+            flex: 1;
+        }
+        .nav {
+            background-color: #e3e2be;
+            width: 150px;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        .article {
+            background-color:#c3ddbf;
+            flex: 1;
+            margin: 5px;
+            border-radius: 10px;
+            position: relative;
+        }
+        .footer {
+            height: 50px;
+            background-color: antiquewhite;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        table{
+            position: absolute;
+            left: 50px;
+            top: 50px;
+            border-collapse: collapse;
+            border: 2px solid black;
+        }
+        tr,th,td {
+            border: 1px solid black;
+        }
+        p {
+            margin: 0 20px;
+        }

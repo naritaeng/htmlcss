@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>join</title>
+    <style>
+        body{
+            margin: 20px;
+        }
+        input {
+            position: absolute;
+            left: 130px;
+        }
+    </style>
+</head>
+<body>
+    <a href="main.html">메인으로</a>
+    <h3>회원가입</h3>
+    <form action="#">
+        <p>아이디 <input type="text" placeholder="ID" required></p>
+        <p>비밀번호 <input type="text" placeholder="password" required></p>
+        <p>비밀번호 확인 <input type="text" placeholder="password" required></p>
+        <p>생년월일 <input type="text" pattern="[0-9]{0,8}" placeholder="8자리" required></p>
+        <p>이름 <input type="text" pattern="[가-힣]{2,4}" placeholder="ex)장미,선우정아 (2-4글자)" required></p>
+        <p>전화번호 <input type="text" pattern="01[06-9]\d{3,4}\d{4}" placeholder="-를 제외한 숫자만" required></p>
+        <button type="submit">회원가입</button>
+        <button type="reset">정보수정</button>
+    </form>
+    </body>
+</html>
+    
+    
+    
+    
+    
+    
