@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* th,
+      td {
+        border: 1px solid black;
+      } */
+      button {
+        text-align: center;
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="done.html">
+      <table>
+        <tr>
+          <th colspan="2">로그인</th>
+        </tr>
+        <tr>
+          <td>아이디</td>
+          <td>
+            <input type="text" id="id" pattern="[a-z가-힣]{2,4}" required />
+          </td>
+        </tr>
+        <tr>
+          <td>패스워드</td>
+          <td><input type="password" id="pw" pattern="[0-9]{0-4}" /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td colspan="2">
+            <button>로그인</button><input type="submit" value="회원가입" />
+            <!-- <button>회원가입</button> -->
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
